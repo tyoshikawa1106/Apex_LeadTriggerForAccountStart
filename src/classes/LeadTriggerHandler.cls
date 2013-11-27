@@ -1,11 +1,7 @@
 /**
  * Lead Trigger
  * © 2013 Force.com Developer
- * ----------------------------------------
- * @createdDate      : 2013/01/01
  * @createdName      : Taiki,Yoshikawa
- * ----------------------------------------
- * @lastModifiedDate : 2013/01/01
  * @lastModifiedName : Taiki,Yoshikawa
  * ----------------------------------------
  */
@@ -22,7 +18,7 @@ public with sharing class LeadTriggerHandler {
      * リードの取引開始時にアンケートを更新
      * @param   : 更新後のリード   [prmLeadNews]
      * @param   : 更新前のリード   [prmLeadOlds]
-     * @return  : なし
+     * @return  : none
      */
     public void doUpdateQuestionnaire(List<Lead> prmLeadNews, List<Lead> prmLeadOlds) {
         System.debug('doUpdateQuestionnaire:START');
@@ -77,7 +73,7 @@ public with sharing class LeadTriggerHandler {
      * リードの取引開始時に取引先責任者を更新
      * @param   : 更新後のリード   [prmLeadNews]
      * @param   : 更新前のリード   [prmLeadOlds]
-     * @return  : なし
+     * @return  : none
      */
     public void doUpdateContact(List<Lead> prmLeadNews, List<Lead> prmLeadOlds) {
         System.debug('doUpdateContact:START');

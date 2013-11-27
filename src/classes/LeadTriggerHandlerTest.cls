@@ -2,10 +2,7 @@
  * Lead Trigger
  * © 2013 Force.com Developer
  * ----------------------------------------
- * @createdDate      : 2013/01/01
  * @createdName      : Taiki,Yoshikawa
- * ----------------------------------------
- * @lastModifiedDate : 2013/01/01
  * @lastModifiedName : Taiki,Yoshikawa
  * ----------------------------------------
  */
@@ -123,7 +120,7 @@ private class LeadTriggerHandlerTest {
     
     /**
      * リードテストデータ作成
-     * @param   : なし
+     * @param   : none
      * @return  : リード
      */
     private static Lead createLead() {
@@ -141,7 +138,7 @@ private class LeadTriggerHandlerTest {
     
     /**
      * リードステータス取得
-     * @param   : なし
+     * @param   : none
      * @return  : リードステータス
      */
     private static LeadStatus getLeadStatus() {
